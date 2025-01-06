@@ -11,8 +11,8 @@ const FeaturesSection = () => {
                 <h2 className="text-3xl font-bold text-gray-800">Why Choose Us?</h2>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
-                        <div key={index} className="bg-white shadow-md rounded-md p-6">
-                            <h3 className="text-xl font-semibold text-blue-600">{feature.title}</h3>
+                        <div key={index} className="shadow-md rounded-md p-6">
+                            <h3 className="text-xl font-semibold text-amber-600">{feature.title}</h3>
                             <p className="mt-4 text-gray-600">{feature.description}</p>
                         </div>
                     ))}

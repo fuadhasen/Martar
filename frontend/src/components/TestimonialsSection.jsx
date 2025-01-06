@@ -13,7 +13,7 @@ const TestimonialsSection = () => {
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className="bg-white shadow-md rounded-md p-6">
                             <p className="text-gray-600">"{testimonial.feedback}"</p>
-                            <h3 className="mt-4 font-semibold text-gray-800">- {testimonial.name}</h3>
+                            <h3 className="font-semibold text-sm text-amber-800">- {testimonial.name} -</h3>
                         </div>
                     ))}
                 </div>
